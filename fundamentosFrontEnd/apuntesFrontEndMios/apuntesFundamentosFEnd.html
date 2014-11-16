@@ -16,8 +16,7 @@ En un mac, con mi cliente github
 
 Si tenemos cambios en nuestro local y queremos verlos en el gitServidor
 -repository push
--para ver nuestros cambios en server debemos pulsar commits
-
+-para ver nuestros cambios en server debemos pulsar commits en la web
 
 
 
@@ -36,3 +35,18 @@ En nuestro debugger en chrome podemos ver los archivos que se han cargado a traa
 **********************************************************************************************
 
 Foundation
+ ********************
+
+STylus:
+Es un preprocesador que nos facilita la vida a la hora de hacer css.
+Para instalarlo previamente instalar nodeJS 
+en temrinal luego. : npm install -g stylus
+
+PAra compilar nuestro stylus debemos situarnos en la ruta.
+stylus -c -w estilos.styl    (de esta manera nos lo compilara cada vez que estemos agregando algo ya que tenemos un Watching (w))
+
+
+Nib:
+complemento de stylus
+en nuestro .styl debemos importar nuestro nib (@import 'nib/gradients')
+stylus -u nib -w  estilos.styl (ESto lo que haces coger la ruta de mi stylus y complicarlo con este.)
